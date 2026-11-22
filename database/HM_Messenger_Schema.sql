@@ -1,0 +1,9 @@
+DROP DATABASE IF EXISTS HM_Messenger;
+CREATE DATABASE HM_Messenger;
+Use HM_Messenger;
+
+create table users (
+	user_id INT AUTO_INCREMENT PRIMARY KEY,
+	username VARCHAR(255) NOT NULL,
+	password VARCHAR(255) NOT NULL
+) AUTO_INCREMENT=1;

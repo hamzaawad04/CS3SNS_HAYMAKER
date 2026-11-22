@@ -1,0 +1,35 @@
+.side_bar {
+    -fx-background-color: #dccbcc;
+    -fx-background-radius: 10 0 0 0;
+    -fx-border-radius: 10 0 0 0;
+}
+
+.main_back {
+    -fx-background-radius: 10 10 10 10;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-color: #dccbcc;
+}
+
+.titled-pane {
+    -fx-background-color: transparent;
+    -fx-background-radius: 12px;
+    -fx-border-radius: 12px;
+}
+
+/* Top header bar: round top-left and top-right corners only */
+.titled-pane > .title {
+    -fx-background-color: #c4b0b2;
+    -fx-background-radius: 12px 12px 0 0;
+    -fx-border-radius: 12px 12px 0 0;
+    -fx-border-color: #a89496;
+    -fx-border-width: 1px 1px 0 1px;
+}
+
+/* Content body: round bottom-left and bottom-right corners only */
+.titled-pane > .content {
+    -fx-background-color: #dccbcc;
+    -fx-background-radius: 0 0 12px 12px;
+    -fx-border-radius: 0 0 12px 12px;
+    -fx-border-color: #a89496;
+    -fx-border-width: 0 1px 1px 1px;
+}
